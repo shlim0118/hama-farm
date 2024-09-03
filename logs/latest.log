@@ -1,0 +1,277 @@
+[02:42:41] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:42:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[02:42:42] [ServerMain/INFO]: Loaded 1174 recipes
+[02:42:43] [ServerMain/INFO]: Loaded 1271 advancements
+[02:42:43] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[02:42:43] [Server thread/WARN]: ****************************
+[02:42:43] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[02:42:43] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[02:42:43] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[02:42:43] [Server thread/WARN]: ****************************
+[02:42:43] [Server thread/INFO]: Loading properties
+[02:42:43] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[02:42:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:42:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:42:44] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[02:42:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:42:44] [Server thread/INFO]: Default game type: SURVIVAL
+[02:42:44] [Server thread/INFO]: Generating keypair
+[02:42:44] [Server thread/INFO]: Starting Minecraft server on *:30001
+[02:42:44] [Server thread/INFO]: Using epoll channel type
+[02:42:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:42:44] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:42:45] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:42:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.16+6534-2066eb4
+[02:42:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@61a76dd5]
+[02:42:45] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[02:42:45] [Server thread/INFO]: [IridiumSkyblock] Loading server plugin IridiumSkyblock v4.0.9.1
+[02:42:47] [Server thread/INFO]: [HuskSync] Loading server plugin HuskSync v3.6.8-2df9fd8
+[02:42:47] [Server thread/INFO]: [HuskSync] Initializing plugin config & locale files...
+[02:42:47] [Server thread/INFO]: [HuskSync] Successfully initialized plugin config & locale files
+[02:42:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:42:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:42:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:42:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:42:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.16+6534-2066eb4
+[02:42:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:42:47] [Server thread/INFO]: WEPIF: Updated config file
+[02:42:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:42:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
+[02:42:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:42:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:42:49] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:42:49] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[02:42:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:42:49] [Server thread/INFO]: Preparing level "world"
+[02:43:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:43:01] [Server thread/INFO]: Time elapsed: 196 ms
+[02:43:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:43:01] [Server thread/INFO]: Time elapsed: 81 ms
+[02:43:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:43:01] [Server thread/INFO]: Time elapsed: 77 ms
+[02:43:01] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v4.0.9.1
+[02:43:08] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock
+[02:43:08] [Server thread/INFO]: Time elapsed: 27 ms
+[02:43:09] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_nether
+[02:43:09] [Server thread/INFO]: Time elapsed: 21 ms
+[02:43:10] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
+[02:43:10] [Server thread/INFO]: Time elapsed: 11 ms
+[02:43:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'IridiumSkyblock_the_end'
+[02:43:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'IridiumSkyblock_the_end'
+[02:43:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'IridiumSkyblock_the_end'
+[02:43:11] [Server thread/INFO]: [ChunkHolderManager] Saved 968 block chunks, 0 entity chunks, 0 poi chunks in world 'IridiumSkyblock_the_end' in 0.64s
+[02:43:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R2! Trying to find NMS support
+[02:43:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R2' loaded!
+[02:43:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'IridiumSkyblock' to create a bStats instance!
+[02:43:12] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
+[02:43:12] [Server thread/INFO]: Time elapsed: 35 ms
+[02:43:12] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:43:12] [Server thread/INFO]: [IridiumSkyblock] 
+[02:43:12] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
+[02:43:12] [Server thread/INFO]: [IridiumSkyblock] 
+[02:43:12] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:43:12] [Server thread/INFO]: [HuskSync] Enabling HuskSync v3.6.8-2df9fd8
+[02:43:12] [Server thread/INFO]: [HuskSync] Initializing commands...
+[02:43:12] [Server thread/INFO]: [HuskSync] Successfully initialized commands
+[02:43:12] [Server thread/INFO]: [HuskSync] Initializing data adapter...
+[02:43:12] [Server thread/INFO]: [HuskSync] Successfully initialized data adapter
+[02:43:12] [Server thread/INFO]: [HuskSync] Initializing data serializers...
+[02:43:12] [Server thread/INFO]: [HuskSync] Successfully initialized data serializers
+[02:43:12] [Server thread/INFO]: [HuskSync] Initializing data migrators/converters...
+[02:43:12] [Server thread/INFO]: [HuskSync] Successfully initialized data migrators/converters
+[02:43:12] [Server thread/INFO]: [HuskSync] Initializing MySQL database connection...
+[02:43:12] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.HikariDataSource] HuskSyncHikariPool - Starting...
+[02:43:33] [Server thread/ERROR]: Error occurred while enabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
+net.william278.husksync.HuskSync$FailedToLoadException: HuskSync has failed to load! The plugin will not be enabled and no data will be synchronized.
+Please make sure the plugin has been setup correctly (https://william278.net/docs/husksync/setup):
+
+1) Make sure you've entered your MySQL, MariaDB or MongoDB database details correctly in config.yml
+2) Make sure your Redis server details are also correct in config.yml
+3) Make sure your config is up-to-date (https://william278.net/docs/husksync/config-file)
+4) Check the error below for more details
+
+Caused by: Failed to initialize MySQL database connection
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:155) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.onEnable(BukkitHuskSync.java:180) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:190) ~[paper-1.20.2.jar:git-Paper-318]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:646) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:557) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:627) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:424) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1086) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.RuntimeException: java.lang.IllegalStateException: Failed to establish a connection to the MySQL database. Please check the supplied database credentials in the config file
+	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:45) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	... 13 more
+Caused by: java.lang.IllegalStateException: Failed to establish a connection to the MySQL database. Please check the supplied database credentials in the config file
+	at net.william278.husksync.database.MySqlDatabase.initialize(MySqlDatabase.java:130) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.lambda$onEnable$5(BukkitHuskSync.java:186) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	... 13 more
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:889) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at net.william278.husksync.libraries.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.database.MySqlDatabase.initialize(MySqlDatabase.java:119) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.lambda$onEnable$5(BukkitHuskSync.java:186) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	... 13 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:833) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at net.william278.husksync.libraries.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.database.MySqlDatabase.initialize(MySqlDatabase.java:119) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.lambda$onEnable$5(BukkitHuskSync.java:186) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	... 13 more
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:551) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:121) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:833) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:440) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.1.0.jar:8.1.0]
+	at net.william278.husksync.libraries.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.database.MySqlDatabase.initialize(MySqlDatabase.java:119) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.lambda$onEnable$5(BukkitHuskSync.java:186) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.HuskSync.initialize(HuskSync.java:153) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	... 13 more
+[02:43:33] [Server thread/INFO]: [HuskSync] Disabling HuskSync v3.6.8-2df9fd8
+[02:43:33] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling HuskSync v3.6.8-2df9fd8 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.william278.husksync.redis.RedisManager.terminate()" because the return value of "net.william278.husksync.HuskSync.getRedisManager()" is null
+	at net.william278.husksync.listener.EventListener.handlePluginDisable(EventListener.java:125) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.listener.BukkitEventListener.handlePluginDisable(BukkitEventListener.java:58) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at net.william278.husksync.BukkitHuskSync.onDisable(BukkitHuskSync.java:229) ~[HuskSync-Paper-3.6.8-2df9fd8.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225) ~[paper-1.20.2.jar:git-Paper-318]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194) ~[paper-1.20.2.jar:git-Paper-318]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:646) ~[paper-1.20.2.jar:git-Paper-318]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:557) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:627) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:424) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1086) ~[paper-1.20.2.jar:git-Paper-318]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-318]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[02:43:33] [Server thread/INFO]: Running delayed init tasks
+[02:43:33] [Server thread/WARN]: [IridiumSkyblock] You do not have an economy plugin installed (like Essentials)
+[02:43:33] [Server thread/INFO]: Done (49.897s)! For help, type "help"
+[02:43:33] [Server thread/INFO]: Timings Reset
+[02:43:33] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:43:33] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[02:43:33] [Server thread/INFO]: [IridiumSkyblock] You are using the latest version of IridiumSkyblock.
+[02:43:36] [Server thread/INFO]: Stopping the server
+[02:43:36] [Server thread/INFO]: Stopping server
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v4.0.9.1
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] 
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] 
+[02:43:36] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:43:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.16+6534-2066eb4
+[02:43:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:43:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:43:36] [Server thread/INFO]: Saving players
+[02:43:36] [Server thread/INFO]: Saving worlds
+[02:43:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:43:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:43:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:43:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:43:37] [Server thread/INFO]: [ChunkHolderManager] Saved 1521 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 0.91s
+[02:43:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:43:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:43:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:43:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:43:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:43:38] [Server thread/INFO]: [ChunkHolderManager] Saved 1849 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 1.20s
+[02:43:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:43:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:43:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:43:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:43:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.45s
+[02:43:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:43:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock]'/minecraft:iridiumskyblock
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'IridiumSkyblock'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'IridiumSkyblock'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'IridiumSkyblock'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 361 entity chunks, 0 poi chunks in world 'IridiumSkyblock' in 0.51s
+[02:43:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
+[02:43:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_nether]'/minecraft:iridiumskyblock_nether
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'IridiumSkyblock_nether'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'IridiumSkyblock_nether'
+[02:43:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'IridiumSkyblock_nether'
+[02:43:40] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'IridiumSkyblock_nether' in 0.59s
+[02:43:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_the_end]'/minecraft:iridiumskyblock_the_end
+[02:43:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'IridiumSkyblock_the_end'
+[02:43:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'IridiumSkyblock_the_end'
+[02:43:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'IridiumSkyblock_the_end'
+[02:43:40] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'IridiumSkyblock_the_end' in 0.48s
+[02:43:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:43:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:43:40] [Server thread/INFO]: Flushing Chunk IO
+[02:43:40] [Server thread/INFO]: Closing Thread Pool
+[02:43:40] [Server thread/INFO]: Closing Server

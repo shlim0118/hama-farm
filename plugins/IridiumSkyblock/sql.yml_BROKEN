@@ -1,0 +1,8 @@
+---
+driver: "mysql"
+host: "database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com"
+database: "IridiumSkyblock"
+username: "admin"
+password: "test1234"
+port: 3306
+useSSL: false
