@@ -77,7 +77,7 @@ pipeline {
                     sh 'echo failedzz'
                 }
                 success {
-                    sh 'echo successzz'
+                    sh 'echo naaaaaaaaice'
                 }
             }
         }
