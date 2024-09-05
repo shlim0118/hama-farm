@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout Github') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [],
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [[$class: 'CloneOption', depth: 1]], 
                 userRemoteConfigs: [[credentialsId: GITCREDENTIAL, url: GITWEBADD]]])
             }
             post {
