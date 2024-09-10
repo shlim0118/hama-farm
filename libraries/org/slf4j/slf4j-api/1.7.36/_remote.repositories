@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 18 09:41:30 UTC 2024
+#Tue Sep 10 09:29:03 KST 2024
+slf4j-api-1.7.36.jar>central=
 slf4j-api-1.7.36.jar>maven=
 slf4j-api-1.7.36.pom>maven=
+slf4j-api-1.7.36.pom>central=
