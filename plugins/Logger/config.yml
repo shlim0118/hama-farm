@@ -113,7 +113,7 @@ Spy-Features:
     Enable: false
     Message: '&8[&bLogger &8&l| &eAnvil-Spy&8] &7%player% >> %renamed%'
 Database:
-  Enable: false
+  Enable: true
   Type: MySQL
   Host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
   Port: 3306
