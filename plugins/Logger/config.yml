@@ -115,11 +115,11 @@ Spy-Features:
 Database:
   Enable: false
   Type: MySQL
-  Host: log-xconomy.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+  Host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
   Port: 3306
   Username: admin
   Password: test1234
-  Database: farmlog
+  Database: farm_log
   Data-Deletion: 1
 SQLite:
   Enable: false
