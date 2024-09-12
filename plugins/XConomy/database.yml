@@ -16,11 +16,11 @@ SQLite:
 
 #MySQL settings
 MySQL:
-  host: log-xconomy.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+  host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
   port: 3306
   user: admin
   pass: test1234
-  database: farm
+  database: farm_xconomy
   #auto add "_", can use %sign% to indicate Server ID (BungeeCord settings)
   table-suffix: ''
   property:
