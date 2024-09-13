@@ -115,7 +115,7 @@ Spy-Features:
 Database:
   Enable: true
   Type: MySQL
-  Host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+  Host: 10.100.0.33
   Port: 3306
   Username: admin
   Password: test1234

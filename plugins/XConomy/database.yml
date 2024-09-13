@@ -16,7 +16,7 @@ SQLite:
 
 #MySQL settings
 MySQL:
-  host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+  host: 10.100.0.33
   port: 3306
   user: admin
   pass: test1234
@@ -40,7 +40,7 @@ Pool-Settings:
 
 #Redis settings
 Redis:
-  host: hama-redis-ro.797txa.ng.0001.apn2.cache.amazonaws.com
+  host: 10.100.0.33
   port: 6379
   db-index: 1
   duration: 1000

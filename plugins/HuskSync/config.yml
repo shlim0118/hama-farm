@@ -28,7 +28,7 @@ database:
   type: MYSQL
   # Specify credentials here for your MYSQL, MARIADB, POSTGRES OR MONGO database
   credentials:
-    host: database-1.cjcakwwqi0jh.ap-northeast-2.rds.amazonaws.com
+    host: 10.100.0.33
     port: 3306
     database: minecraft
     username: admin
@@ -54,7 +54,7 @@ database:
 redis:
   # Specify the credentials of your Redis database here. Set "password" to '' if you don't have one
   credentials:
-    host: hama-redis-ro.797txa.ng.0001.apn2.cache.amazonaws.com
+    host: 10.100.0.33
     port: 6379
     password: ''
     use_ssl: false
