@@ -79,8 +79,8 @@ non-player-account:
 
 #The display of the currency
 Currency:
-  singular-name: gold
-  plural-name: gold
+  singular-name: rapa
+  plural-name: rapa
   #Is the balance an integer
   integer-bal: false
   #Method for rounding off excess digits in the amount
